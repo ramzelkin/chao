@@ -10,6 +10,7 @@ function MainView() {
       myController = controller;
    }
    this.update = function() {
+      $('body').contents().remove();
       var state = myModel.getModelState();
       if (state.pagename) {//если есть название стр, то url надо менять
          location.hash = state.pagename;
