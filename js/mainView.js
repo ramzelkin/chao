@@ -3,7 +3,7 @@ function MainView() {
    var myModel;
    var myController;
    var self = this;
-   
+
    this.headerFooterView = new HeaderFooterView();
    this.start = function(model, controller) {
       myModel = model;
@@ -20,7 +20,7 @@ function MainView() {
          case 'faq':
             break;
          default:
-            self.headerFooterView.start(myModel.headerFooterModel);
+            self.headerFooterView.start(myModel.headerFooterModel, myController.headerFooterController);
             break;
       }
    }
