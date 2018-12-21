@@ -3,7 +3,7 @@ html {
     height: 100%;
 }
 body {
-   background-color: rgb(241,241,241);
+   background-color: rgb(240,240,240);
    position: absolute;
    margin: 0;
    background-size: 100%;
@@ -11,7 +11,28 @@ body {
    width: 100%;
 }
 #header {
-   height: 40px;
-   background-color: #FFD888;
+   background-color: #434474;
    width: 100%;
+}
+#headerMenu {
+   height: 50px;
+   margin-top: 0;
+   margin-right: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   list-style-type: none;
+}
+#headerMenu li {
+   margin-right: 5%;
+   align-self: center;
+   color: white;
+   font-family: Jura-Bold;
+}
+#headerMenu li:hover {
+   cursor: pointer;
+}
+@font-face {
+    font-family: Jura-Bold;
+    src: url('../fonts/Jura-Bold.ttf');
 }
