@@ -1,1 +1,4 @@
 //loginController
+function LoginController(){
+   
+}

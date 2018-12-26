@@ -1,1 +1,4 @@
 //loginModel
+function LoginModel(){
+   
+}

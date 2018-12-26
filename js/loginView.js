@@ -1,1 +1,4 @@
 //loginView
+function LoginView(){
+   
+}
